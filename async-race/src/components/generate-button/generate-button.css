@@ -1,0 +1,14 @@
+.generate-button {
+  display: flex;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 20px;
+  font-size: 18px;
+  background-color: #27be2f;
+  border-radius: 5px;
+  padding: 1px 3px;
+  cursor: pointer;
+  margin-left: 12px;
+  margin-top: 4px;
+}/*# sourceMappingURL=generate-button.css.map */

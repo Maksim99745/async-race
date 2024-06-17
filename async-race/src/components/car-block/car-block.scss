@@ -1,0 +1,79 @@
+.car-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 77px;
+  border-bottom: 1px dashed #cfc5c5;
+}
+
+.car-block__buttons {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.car-block__button {
+  height: 18px;
+  font-size: 14px;
+  background-color: #27be2f;
+  border-radius: 5px;
+  padding: 1px 3px;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+.car-block__name {
+  color: #fff;
+}
+
+.car-section {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 58px;
+}
+
+.stop-button,
+.start-button {
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.stop-button {
+  margin-left: 5px;
+}
+
+.car-container {
+  display: flex;
+  position: absolute;
+  left: 80px;
+  bottom: 1px;
+  width: 70px;
+  height: 22px;
+align-self: flex-end;
+}
+
+.car {
+  display: flex;
+  align-items: end;
+  width: 55px;
+  height: 22px;
+  margin-left: 5px;
+}
+
+.car-block__flag {
+  position: absolute;
+  left: 85%;
+  top: 15px;
+  width: 40px;
+  height: 40px;
+}

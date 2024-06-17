@@ -1,0 +1,44 @@
+@import url(../../components/car-block/car-block.scss);
+@import url(../../components/inputs-block/inputs.scss);
+@import url(../../components/race-block/race-block.scss);
+@import url(../../components/pagination/pagination.scss);
+@import url(../../components/generate-button/generate-button.scss);
+@font-face {
+  font-family: Roboto;
+  src: url(../../../public/Roboto-Regular.ttf);
+}
+.garage-page {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100% - 53px);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 54, 121) 54%);
+  transition: 0.8s ease-in-out;
+}
+
+.cars-block {
+  display: flex;
+  width: 95%;
+  margin: 10px auto;
+  flex-direction: column;
+  border: 3px dashed #fff;
+}
+
+.cars-amount {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 18px;
+  font-size: 18px;
+  color: #fff;
+  margin-left: 12px;
+}
+
+.page-name {
+  display: flex;
+  color: #ffffff;
+  font-size: 25px;
+  position: absolute;
+  left: 70%;
+  bottom: 95.5%;
+}/*# sourceMappingURL=garage.css.map */

@@ -1,0 +1,33 @@
+{
+    "name": "async-race",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite --open",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "lint": "eslint .",
+        "lint-fix": "npm run lint -- --fix"
+    },
+    "dependencies": {
+        "vite": "^5.2.2",
+        "vite-plugin-eslint": "^1.8.1"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^7.3.1",
+        "@typescript-eslint/parser": "^7.3.1",
+        "eslint": "^8.57.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-airbnb-typescript": "^18.0.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-eslint-plugin": "^5.4.1",
+        "eslint-plugin-html": "^8.0.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-jsx-a11y": "^6.8.0",
+        "eslint-plugin-prettier": "^5.1.3",
+        "prettier": "^3.2.5",
+        "sass": "^1.72.0",
+        "typescript": "^5.2.2"
+    }
+}

@@ -1,0 +1,34 @@
+.winner-block {
+  display: flex;
+  color: #fff;
+  width: 100%;
+  height: 30px;
+}
+
+.winner__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17%;
+}
+
+.winner-item__time {
+  width: 32%;
+}
+
+.winner-items-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.winner__block {
+  display: flex;
+  height: 30px;
+  color: #fff;
+}
+
+@media (max-width: 580px) {
+  .winner__item {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=winner-block.css.map */

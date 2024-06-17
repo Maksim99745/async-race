@@ -1,0 +1,37 @@
+.inputs-block {
+  display: flex;
+  flex-direction: column;
+  height: 63px;
+  margin-left: 10px;
+  padding: 1px;
+}
+
+.update-block,
+.create-block {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+
+.update-input,
+.create-input {
+  border-radius: 4px;
+  margin-right: 4px;
+}
+
+.color-input {
+  width: 50px;
+  height: 20px;
+}
+
+.update-button,
+.create-button {
+    width: fit-content;
+    height: 18px;
+    font-size: 14px;
+    background-color: #27be2f;
+    border-radius: 5px;
+    padding: 1px 3px;
+    cursor: pointer;
+    margin: 0 4px;
+}

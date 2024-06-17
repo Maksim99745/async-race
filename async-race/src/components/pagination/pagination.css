@@ -1,0 +1,24 @@
+.pagination-counter {
+  display: flex;
+  color: #fff;
+  margin-top: 8px;
+  margin-left: 12px;
+}
+
+.pagination-buttons {
+  display: flex;
+  margin-left: 12px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.pagination-button {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 18px;
+  background-color: #27be2f;
+  border-radius: 5px;
+  padding: 1px 3px;
+  cursor: pointer;
+  margin: 0 4px;
+}/*# sourceMappingURL=pagination.css.map */
